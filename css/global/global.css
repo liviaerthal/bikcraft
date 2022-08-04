@@ -14,6 +14,10 @@ img{
   display: block;
 }
 
+img[src$=".jpg"]{
+  border-radius: 4px;
+}
+
 ul{
   list-style: none;
 }
