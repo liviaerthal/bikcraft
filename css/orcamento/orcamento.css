@@ -34,11 +34,11 @@
 
 .orcamento-produto{
   border-radius: 5px 0 0 5px;
-  background-color: var(--cor-12);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   align-content: flex-start;
+  background: var(--cor-12 )url('../../img/dec/bottom-left.svg') no-repeat bottom 20px left 20px;
 }
 
 .orcamento-produto > *{
@@ -107,6 +107,7 @@ font: 400 1rem/1.5 "Poppins", sans-serif;
 }
 
 .orcamento-dados{
+  background: url('../../img/dec/bottom-right.svg') no-repeat bottom 20px right 20px;
   border-radius: 0 5px 5px 0;
   background-color: var(--cor-0);
 }
@@ -164,6 +165,7 @@ font: 400 1rem/1.5 "Poppins", sans-serif;
 
   .orcamento-produto{
     border-radius: 5px 5px 0 0;
+    background: var(--cor12);
   }
 
   .orcamento-dados{

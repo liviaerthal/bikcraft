@@ -14,17 +14,19 @@
 }
 
 .contato-dados{
-  background-color: var(--cor-12);
+  background: var(--cor-12) url('../../img/dec/bottom-left.svg') no-repeat bottom 20px left 20px;
   border-radius: 5px 0 0 5px;
+
 }
 
 .contato-formulario{
-  background-color: var(--cor-0);
+  background: var(--cor-0) url('../../img/dec/bottom-right.svg') no-repeat bottom 20px right 20px;
   border-radius: 0 5px 5px 0;
 }
 
 .contato-dados h2{
   margin-bottom: 60px;
+  
 }
 
 .contato-endereco{
@@ -77,10 +79,12 @@
   }
 
   .contato-dados{
+    background: var(--cor-12);
     border-radius: 5px 5px 0 0;
   }
 
   .contato-formulario{
+    background: url('../../img/dec/bottom-right.svg') no-repeat bottom 20px right 20px;
     border-radius:0 0 5px 5px;
   }
 
